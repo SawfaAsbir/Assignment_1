@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
 }
-/* Common btn style */
+/* Common style */
 .common-btn {
   font-weight: 600;
   color: white;
@@ -10,6 +10,18 @@
   padding: 11.5px 41.5px;
   border-radius: 12px;
   border: none;
+}
+.box-p {
+  color: #2563eb;
+  font-family: "Inter", sans-serif;
+  font-weight: 594;
+  font-size: 14px;
+}
+.box-h3 {
+  color: #0d1b2a;
+}
+.designation {
+  color: #575757;
 }
 /* Header part style */
 .header-part {
@@ -44,13 +56,9 @@
   margin-top: 24px;
   /* width: 1892px;  */
   height: 786px;
-  background-image: 
-    linear-gradient(
-        90deg,
-        rgba(0,0,0,0.9),
-        rgba(0,0,0,0.0)
-    ),
-  url(/assets/banner.jpg);
+  background-image:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),
+    url(/assets/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -87,4 +95,91 @@
 }
 /* Hero section style End */
 
+/* Meet the speakers start */
+.meet-the-spekers {
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 169px;
+}
+.meet-the-spekers h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  color: #000102;
 
+  margin-bottom: 56px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.meet-the-spekers-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.box-1 {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 15px;
+}
+.box-1 img {
+  border-radius: 10px 10px 0px 0px;
+}
+.box-1 p,
+h3 {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  margin-left: 24px;
+}
+.box-1 .designation {
+  margin: 24px;
+}
+.box-2 {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 15px;
+}
+.box-2 img {
+  border-radius: 10px 10px 0px 0px;
+}
+.box-2 p,
+h3 {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  margin-left: 24px;
+}
+.box-2 .designation {
+  margin: 24px;
+}
+.box-3 {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 15px;
+}
+.box-3 img {
+  border-radius: 10px 10px 0px 0px;
+}
+.box-3 p,
+h3 {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  margin-left: 24px;
+}
+.box-3 .designation {
+  margin: 24px;
+}
+.box-4 {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 15px;
+}
+.box-4 img {
+  border-radius: 10px 10px 0px 0px;
+}
+.box-4 p,
+h3 {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  margin-left: 24px;
+}
+.box-4 .designation {
+  margin: 24px;
+}
