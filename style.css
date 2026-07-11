@@ -183,3 +183,173 @@ h3 {
 .box-4 .designation {
   margin: 24px;
 }
+/* Meet the speakers finish */
+
+/* Secure your spot start */
+.secure-your-spot{
+    margin-bottom: 129px;
+}
+.secure-your-spot-heading {
+  text-align: center;
+  
+}
+.secure-your-spot-heading h1{
+    font-family: "Inter", sans-serif;
+  font-size: 48px;
+}
+.secure-your-spot-heading p{
+    margin-top: 15px;
+    font-size: 18px;
+    color: #575757;
+    margin-bottom: 28px;
+}
+.all-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  
+}
+.card-1 {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+}
+.card-1 .card-1-standard {
+  color: #888888;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+.card-1-standard-price {
+  color: #0d1b2a;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+.card-1-standard-pricing-unit {
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+  color: #888888;
+}
+.card-1-heading-part {
+  margin-bottom: 20px;
+}
+.card-1 hr {
+  border: 1px solid rgba(229, 231, 235, 1);
+  width: 323px;
+}
+.card-1-content {
+  padding: 34px 36px;
+}
+.card-1-content ul li {
+  font-family: "Inter", sans-serif;
+  margin: 15px;
+  font-weight: 350;
+  color: #333333;
+}
+.card-1-content ul li::marker {
+  color: #2563eb;
+}
+.card-1-content button {
+  color: #2563eb;
+  font-weight: 600;
+  padding: 12px 107px;
+  background-color: white;
+  border: 1px solid #2563eb;
+  border-radius: 10px;
+}
+.card-2 {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background-color: #0d1b2a;
+}
+.card-2 .card-2-standard {
+  color: #93c5fd;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+.card-2-standard-price {
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+.card-2-standard-pricing-unit {
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+  color: #888888;
+}
+.card-2-heading-part {
+  margin-bottom: 20px;
+}
+.card-2 hr {
+  border: 1px solid rgba(229, 231, 235, 1);
+  width: 323px;
+}
+.card-2-content {
+  padding: 34px 36px;
+}
+.card-2-content ul li {
+  font-family: "Inter", sans-serif;
+  margin: 15px;
+  font-weight: 350;
+  color: white;
+}
+.card-2-content ul li::marker {
+  color: #2563eb;
+}
+.card-2-content button {
+  background-color: #2563eb;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 12px 130px;
+  border: 1px solid #2563eb;
+  border-radius: 10px;
+}
+.card-3 {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  /* background-color: rgba(136, 136, 136, 1); */
+  background-color: #f8f9fb;
+}
+.card-3 .card-3-standard {
+  color: #888888;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+.card-3-standard-price {
+  color: #0d1b2a;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+.card-3-standard-pricing-unit {
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+  color: #888888;
+}
+.card-3-heading-part {
+  margin-bottom: 20px;
+}
+.card-3 hr {
+  border: 1px solid rgba(229, 231, 235, 1);
+  width: 323px;
+}
+.card-3-content {
+  padding: 34px 36px;
+}
+.card-3-content ul li {
+  font-family: "Inter", sans-serif;
+  margin: 15px;
+  font-weight: 350;
+  color: #333333;
+}
+.card-3-content ul li::marker {
+  color: #2563eb;
+}
+.card-3-content button {
+  color: #2563eb;
+  font-weight: 600;
+  padding: 12px 107px;
+  background-color: white;
+  border: 1px solid #2563eb;
+  border-radius: 10px;
+}
