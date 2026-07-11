@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* Common btn style */
+.common-btn {
+  font-weight: 600;
+  color: white;
+  background-color: #1d4ed8;
+  padding: 11.5px 41.5px;
+  border-radius: 12px;
+  border: none;
+}
+/* Header part style */
+.header-part {
+  margin-top: 23.5px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar-part-2 {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+.navbar-part-2 li a {
+  text-decoration: none;
+  color: #575757;
+}
+.common-btn {
+  font-weight: 600;
+  color: white;
+  background-color: #1d4ed8;
+  padding: 11.5px 41.5px;
+  border-radius: 12px;
+  border: none;
+}
+/* Header part style end */
+
+/* Hero section style start */
+.hero-section {
+  margin-top: 24px;
+  /* width: 1892px;  */
+  height: 786px;
+  background-image: 
+    linear-gradient(
+        90deg,
+        rgba(0,0,0,0.9),
+        rgba(0,0,0,0.0)
+    ),
+  url(/assets/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 80px;
+}
+.hero-section-text-part {
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+.hero-section-text-part h1 {
+  padding-top: 136px;
+  padding-left: 580px;
+  letter-spacing: -3.2px;
+  font-size: 80px;
+}
+.hero-section-text-part p {
+  text-align: center;
+  margin-top: 16px;
+  padding-left: 553px;
+  width: 829px;
+  height: 108px;
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.hero-section button {
+  margin-top: 300px;
+  margin-left: 860px;
+  font-weight: 600;
+  color: white;
+  background-color: #1d4ed8;
+  padding: 20px 40px;
+  border-radius: 5px;
+  border: none;
+}
+/* Hero section style End */
+
+
