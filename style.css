@@ -357,21 +357,6 @@ h3 {
 /* Secure your spot finish */
 
 /* Schedule part start */
-/* ==========================
-      Schedule Section
-========================== */
-
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-
-  background: #ffffff;
-}
 .schedule-list {
   padding: 15px;
   border: 2px solid #dfe0e2;
@@ -382,6 +367,7 @@ body {
   width: 75%;
 
   margin: 100px auto;
+  margin-bottom: 128px;
 }
 
 /* Heading */
@@ -451,7 +437,7 @@ body {
 
   align-items: center;
 
-  padding: 28px 28px;
+  padding: 28px 78px;
 
   border-bottom: 1px solid #eeeeee;
 
@@ -472,7 +458,7 @@ body {
 .time {
   width: 80px;
 
-  color: #3159ff;
+  color: #075fbc;
 
   font-weight: bold;
   font-size: 34px;
@@ -573,3 +559,41 @@ body {
 .schedule-item:hover .plus {
   transform: rotate(90deg);
 }
+/*Schedule part end */
+
+/* Footer start */
+.footer-part{
+  color: rgba(255, 255, 255, 0.4);
+  background-color: #0D1B2A;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 140px;
+}
+.footer-part ul li a{
+  
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+}
+.footer-part ul li{
+  display: flex;
+  
+  list-style: none;
+}
+.footer-part ul{
+  display: flex;
+  gap: 40px;
+}
+.font-awesome{
+  color: #fafafa;
+  display: flex;
+  gap: 26px;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.footer-part .font-awesome span a{
+  /* text-decoration: none;
+  list-style: none; */
+  color: #fafafa;
+}
+
