@@ -54,7 +54,6 @@
 /* Hero section style start */
 .hero-section {
   margin-top: 24px;
-  /* width: 1892px;  */
   height: 786px;
   background-image:
     linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),
@@ -63,21 +62,22 @@
   background-size: cover;
   background-position: center;
   margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .hero-section-text-part {
   font-family: "Inter", sans-serif;
   color: white;
 }
 .hero-section-text-part h1 {
-  padding-top: 136px;
-  padding-left: 580px;
   letter-spacing: -3.2px;
   font-size: 80px;
 }
 .hero-section-text-part p {
   text-align: center;
   margin-top: 16px;
-  padding-left: 553px;
   width: 829px;
   height: 108px;
   font-size: 22px;
@@ -85,7 +85,6 @@
 }
 .hero-section button {
   margin-top: 300px;
-  margin-left: 860px;
   font-weight: 600;
   color: white;
   background-color: #1d4ed8;
@@ -97,9 +96,13 @@
 
 /* Meet the speakers start */
 .meet-the-spekers {
-  max-width: 1200px;
+  width: 100%;
+  max-width: 1500px;
   margin: auto;
   margin-bottom: 169px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .meet-the-spekers h1 {
   font-family: "Inter", sans-serif;
@@ -122,6 +125,7 @@
 }
 .box-1 img {
   border-radius: 10px 10px 0px 0px;
+  width: 100%;
 }
 .box-1 p,
 h3 {
@@ -139,6 +143,7 @@ h3 {
 }
 .box-2 img {
   border-radius: 10px 10px 0px 0px;
+  width: 100%;
 }
 .box-2 p,
 h3 {
@@ -156,6 +161,7 @@ h3 {
 }
 .box-3 img {
   border-radius: 10px 10px 0px 0px;
+  width: 100%;
 }
 .box-3 p,
 h3 {
@@ -173,6 +179,7 @@ h3 {
 }
 .box-4 img {
   border-radius: 10px 10px 0px 0px;
+  width: 100%;
 }
 .box-4 p,
 h3 {
@@ -517,7 +524,6 @@ h3 {
 .details {
   flex: 1;
 }
-
 .details h3 {
   color: #0d1b2a;
 
@@ -527,13 +533,6 @@ h3 {
   margin-left: 0px;
 }
 
-.details p {
-  /* color: #888; */
-
-  /* font-size: 16px; */
-  /* margin-top: 10px;
-  font-weight: 600; */
-}
 .details-para-2 {
   margin-top: 20px;
   font-family: "Inter", sans-serif;
@@ -545,14 +544,10 @@ h3 {
 }
 
 /* Plus */
-
 .plus {
   font-size: 38px;
-
   color: #3f5cff;
-
   cursor: pointer;
-
   transition: 0.3s;
 }
 
@@ -562,38 +557,58 @@ h3 {
 /*Schedule part end */
 
 /* Footer start */
-.footer-part{
+.footer-part {
   color: rgba(255, 255, 255, 0.4);
-  background-color: #0D1B2A;
+  background-color: #0d1b2a;
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 140px;
 }
-.footer-part ul li a{
-  
+.footer-part ul li a {
   color: rgba(255, 255, 255, 0.4);
   text-decoration: none;
 }
-.footer-part ul li{
+.footer-part ul li {
   display: flex;
-  
+
   list-style: none;
 }
-.footer-part ul{
+.footer-part ul {
   display: flex;
   gap: 40px;
 }
-.font-awesome{
+.font-awesome {
   color: #fafafa;
   display: flex;
   gap: 26px;
   font-size: 26px;
   margin-bottom: 20px;
 }
-.footer-part .font-awesome span a{
-  /* text-decoration: none;
-  list-style: none; */
+.footer-part .font-awesome span a {
   color: #fafafa;
 }
+.event-schedule-button button{
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+  background-color: #1d4ed8;
+  padding: 20px 25px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  transition: transform 1s ease;
+}
 
+.event-schedule-button button:hover{
+  /* transition-duration: 1s; */
+  transform: scale(1.1);
+}
+.event-schedule-button{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
