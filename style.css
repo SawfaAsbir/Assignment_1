@@ -186,28 +186,26 @@ h3 {
 /* Meet the speakers finish */
 
 /* Secure your spot start */
-.secure-your-spot{
-    margin-bottom: 129px;
+.secure-your-spot {
+  margin-bottom: 129px;
 }
 .secure-your-spot-heading {
   text-align: center;
-  
 }
-.secure-your-spot-heading h1{
-    font-family: "Inter", sans-serif;
+.secure-your-spot-heading h1 {
+  font-family: "Inter", sans-serif;
   font-size: 48px;
 }
-.secure-your-spot-heading p{
-    margin-top: 15px;
-    font-size: 18px;
-    color: #575757;
-    margin-bottom: 28px;
+.secure-your-spot-heading p {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #575757;
+  margin-bottom: 28px;
 }
 .all-cards {
   display: flex;
   justify-content: center;
   gap: 30px;
-  
 }
 .card-1 {
   border: 1px solid #e5e7eb;
@@ -255,6 +253,7 @@ h3 {
   background-color: white;
   border: 1px solid #2563eb;
   border-radius: 10px;
+  cursor: pointer;
 }
 .card-2 {
   border: 1px solid #e5e7eb;
@@ -303,6 +302,7 @@ h3 {
   padding: 12px 130px;
   border: 1px solid #2563eb;
   border-radius: 10px;
+  cursor: pointer;
 }
 .card-3 {
   border: 1px solid #e5e7eb;
@@ -352,4 +352,5 @@ h3 {
   background-color: #f8f9fb;
   border: 1px solid #0d1b2a;
   border-radius: 10px;
+  cursor: pointer;
 }
